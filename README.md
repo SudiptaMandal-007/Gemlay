@@ -15,24 +15,31 @@ This project includes:
 
 ## 📁 Project Structure
 
+```
 Gemlay/
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── .env        # backend env
 │
-├── frontend/ # React + Vite App
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ ├── auth/googleClient.js
-│ │ └── components/
-│ ├── index.html
-│ ├── package.json
-│ └── .env # FRONTEND ENV (VITE_)
-│
-├── backend/ # Node.js Express API
-│ ├── server.js
-│ ├── package.json
-│ └── .env # BACKEND ENV (SECRET KEYS)
+├── frontend/
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── package.json
+│   ├── .env        # frontend env (VITE_)
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── src/
+│       ├── App.jsx
+│       ├── main.jsx
+│       ├── index.css
+│       ├── auth/
+│       │   └── googleClient.js
+│       └── components/
 │
 └── README.md
+```
+
 
 yaml
 Copy code

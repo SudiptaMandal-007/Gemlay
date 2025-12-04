@@ -120,10 +120,7 @@ export default function Footer() {
                 <img src="/icons/email.png" className="w-4" />
                 <a href="mailto:info@garnetlanee.com" className="hover:text-[#007451]">info@garnetlanee.com</a>
               </li>
-              <li className="flex gap-2">
-                <img src="/icons/pin.png" className="w-4 mt-1" />
-                SCO 19, Sector 82 JLPL Mohali Airport Road, 160055
-              </li>
+              <li className="flex items-start gap-2"> <img src="/icons/pin.png" className="w-4 mt-1" /> SCO 19, Sector 82 JLPL Mohali Airport Road, 160055 </li>
             </ul>
             <div className="flex gap-4 mt-6">
               <a href="#" className="w-7 h-7 flex items-center justify-center border-2 border-gray-800 rounded-full">

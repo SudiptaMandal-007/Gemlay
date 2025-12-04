@@ -40,10 +40,6 @@ Gemlay/
 └── README.md
 ```
 
-
-yaml
-Copy code
-
 ---
 
 # 🚀 Frontend Setup (Vite + React)
